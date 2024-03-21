@@ -1,3 +1,3 @@
 # K8s
 
-[Basics](Chapter-01-Basics/basics.md)
+[Basics](Chapter-1-Basics/basics.md)

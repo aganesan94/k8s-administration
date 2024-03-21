@@ -1,6 +1,20 @@
 # Basics
 
-
+<!-- TOC -->
+* [Basics](#basics)
+  * [Problems k8s solves](#problems-k8s-solves)
+  * [High level Idea required in the following areas](#high-level-idea-required-in-the-following-areas)
+  * [Master Nodes and Processes](#master-nodes-and-processes)
+    * [1- API Server](#1--api-server)
+    * [2-  Scheduler](#2--scheduler)
+    * [3- Controller](#3--controller)
+    * [4- etcd](#4--etcd)
+  * [Worker Nodes and Processes](#worker-nodes-and-processes)
+    * [1- Container Runtimes (Needs to be installed on every note)](#1--container-runtimes-needs-to-be-installed-on-every-note)
+    * [2- Kubelet](#2--kubelet)
+    * [3- Kube proxy](#3--kube-proxy)
+  * [Requisites for a simple cluster](#requisites-for-a-simple-cluster)
+<!-- TOC -->
 
 ## Problems k8s solves
 
@@ -68,3 +82,8 @@
 * 2 Control Plane Nodes
 * 3 Worker Nodes
 * Master Nodes consume less CPU, RAM, Storage compared to worker nodes.
+
+
+---
+
+##  TLS Certificates
